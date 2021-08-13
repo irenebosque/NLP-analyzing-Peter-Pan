@@ -1,25 +1,42 @@
-# NLP-discoverIng-insights-into-books
-This is a small project to kick-off my Natural language processing (NLP) journey. It is based on the project "Discover Insights into Classic Texts" from the course "Apply Natural Language Processing with Python skill Path" of CodeCademy.com
+# NLP - Analyzing Peter Pan
+This is a small project to kick-off my Natural language processing (NLP) journey. It is based on the project "Discover Insights into Classic Texts" from the course *"Apply Natural Language Processing with Python skill Path"* of [CodeCademy.com](https://www.codecademy.com/paths/natural-language-processing/tracks/nlp-language-parsing/modules/nlp-language-parsing/projects/nlp-regex-parsing-project)
+
+
 
 ![Alt Text](https://media.giphy.com/media/lDR0wnXboVr8c/giphy.gif)
+
+# Goal
+The goal of this project is to perform a simple analysis of the classical book *Peter Pan* and to discover who are the most mentioned characters. The file containing the book was downloaded from [Project Gutenberg](https://www.gutenberg.org/ebooks/16).
+
 # Installation
 ##  Create a virtual environment (optional)
 ```
 virtualenv --python=/usr/bin/python3.6 ~/NLP
 source ~/NLP/bin/activate
-pip install nltk
 ```
+
+## Clone the repository
+In a terminal,  clone this repository wherever you want:
+```shell
+git clone https://github.com/irenebosque/NLP-analyzing-Peter-Pan.git
+```
+
 ## Install additional requirements
-Open a new terminal and paste the following
+Then, in the terminal copy/paste the following:
 
 ```shell
+pip install nltk
 python
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 ```
-
+# Run the code
+To perform the analysis you need to run the file called `script.py`
+```shell
+python script.py
+```
 
 
 # Analysis of the results
